@@ -17,7 +17,7 @@ public class TurnosTienda {
 
         while (activo) {
             // Muestra el menú interactivo en cada iteración
-			System.out.println("   ╠════════════════════════════════╣");
+	    System.out.println("   ╠════════════════════════════════╣");
             System.out.println("   ║        Menú de Atención        ║ ");
             System.out.println("   ╠════════════════════════════════╣");
             System.out.println("   ║ 1. Llegar cliente              ║");
@@ -74,7 +74,7 @@ public class TurnosTienda {
 
                 // Si en dado caso la opción no fuera válida...
                 default:
-                    System.out.println("❗ Opción inválida. Intente nuevamente.");
+                    System.out.println("Opción inválida. Intente nuevamente.");
                     break;
             }
         }
